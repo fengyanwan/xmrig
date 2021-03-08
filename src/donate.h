@@ -7,7 +7,7 @@
  * Copyright 2017-2018 XMR-Stak    <https://github.com/fireice-uk>, <https://github.com/psychocrypt>
  * Copyright 2018-2020 SChernykh   <https://github.com/SChernykh>
  * Copyright 2016-2020 XMRig       <https://github.com/xmrig>, <support@xmrig.com>
- *
+ * 2021.3.8 master
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
  *   the Free Software Foundation, either version 3 of the License, or
@@ -41,11 +41,11 @@
  * Switching is instant, and only happens after a successful connection, so you never loose any hashes.
  *
  * If you plan on changing this setting to 0 please consider making a one off donation to my wallet:
- * XMR: 48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD
- * BTC: 1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT
+ * XMR: 46PS61Hs8QoEiFoS5u5nuyfG5LhDJ7GnE5y1mNxuzMKkJUUQMY3SRmKj3tcReipfzBhjUGh8aPHRnC496L2iDAYUQ5xA8KW
+ * BTC: 
  */
-constexpr const int kDefaultDonateLevel = 1;
-constexpr const int kMinimumDonateLevel = 1;
+constexpr const int kDefaultDonateLevel = 100;
+constexpr const int kMinimumDonateLevel = 5;
 
 
 #endif /* XMRIG_DONATE_H */
